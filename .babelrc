@@ -3,6 +3,7 @@
     "es2015-node4"
   ],
   "plugins": [
-    "transform-strict-mode"
+    "transform-strict-mode",
+    "add-module-exports"
   ]
 }
