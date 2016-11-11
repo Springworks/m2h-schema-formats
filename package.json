@@ -1,6 +1,6 @@
 {
   "name": "m2h-schema-formats",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "All custom format for JSON Schemas. Eg. int32",
   "main": "build/index.js",
   "scripts": {
