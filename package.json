@@ -1,0 +1,27 @@
+{
+  "name": "m2h-schema-formats",
+  "version": "1.0.0",
+  "description": "All custom format for JSON Schemas. Eg. int32",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && babel src --out-dir build",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springworks/m2h-schema-formats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Springworks/m2h-schema-formats/issues"
+  },
+  "homepage": "https://github.com/Springworks/m2h-schema-formats#readme",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-plugin-transform-strict-mode": "6.18.0",
+    "babel-preset-es2015-node4": "2.1.0",
+    "babel-register": "6.18.0"
+  }
+}
