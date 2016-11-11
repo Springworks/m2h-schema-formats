@@ -1,5 +1,5 @@
 {
-  "name": "@springworks/m2h-schema-formats",
+  "name": "@springworks/schema-formats",
   "version": "1.0.3",
   "description": "All custom format for JSON Schemas. Eg. int32",
   "main": "build/index.js",
