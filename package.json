@@ -1,6 +1,6 @@
 {
   "name": "@springworks/schema-formats",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "All custom format for JSON Schemas. Eg. int32",
   "main": "build/index.js",
   "scripts": {
@@ -11,11 +11,12 @@
     "test-no-cov": "NODE_ENV=test mocha",
     "test-acceptance": "NODE_ENV=test istanbul cover _mocha -- --fgrep '/acceptance/'",
     "test-component": "NODE_ENV=test istanbul cover _mocha -- --fgrep '/component/'",
-    "test-unit": "NODE_ENV=test istanbul cover _mocha -- --fgrep '/unit/'"
+    "test-unit": "NODE_ENV=test istanbul cover _mocha -- --fgrep '/unit/'",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Springworks/m2h-schema-formats.git"
+    "url": "https://github.com/Springworks/m2h-schema-formats.git"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +39,7 @@
     "eslint-plugin-should-promised": "^2.0.0",
     "eslint-plugin-springworks": "^2.0.1",
     "istanbul": "^0.4.5",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "semantic-release": "^7.0.2"
   }
 }
