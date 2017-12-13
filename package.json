@@ -18,8 +18,8 @@
     "type": "git",
     "url": "https://github.com/Springworks/m2h-schema-formats.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Springworks",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Springworks/m2h-schema-formats/issues"
   },
